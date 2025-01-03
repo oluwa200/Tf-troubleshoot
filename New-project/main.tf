@@ -10,13 +10,11 @@ resource "aws_s3_bucket" "awoludaho012689" {
 
 
 # create an ec2
-resource "aws_ec2" "name" {
-  resource "aws_instance" "web" {
+resource "aws_instance" "name" {
   ami           = "01816d07b1128cd2d"
   instance_type = "t3.micro"
 
   tags = {
     Name = "HelloWorld"
   }
-}
 }
