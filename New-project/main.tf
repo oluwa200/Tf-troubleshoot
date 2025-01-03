@@ -1,5 +1,5 @@
 # create an ec2 instance
-resource "aws_s3_bucket" "emeline01022025" {
+resource "aws_s3_bucket" "awoludaho012689" {
   bucket = "my-tf-test-bucket"
 
   tags = {
