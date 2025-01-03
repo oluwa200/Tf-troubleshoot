@@ -1,5 +1,5 @@
 # create an ec2 instance
-resource "aws_s3_bucket" "withgodeverythingispossible012689" {
+resource "aws_s3_bucket" "laughter01022025" {
   bucket = "my-tf-test-bucket"
 
   tags = {
@@ -11,8 +11,8 @@ resource "aws_s3_bucket" "withgodeverythingispossible012689" {
 
 # create an ec2
 resource "aws_instance" "web" {
-  ami           = "ami-0e2c8caa4b6378d8c"
-  instance_type = "t3.micro"
+  ami           = "ami-01816d07b1128cd2d"
+  instance_type = "t2.micro"
 
   tags = {
     Name = "HelloWorld"
